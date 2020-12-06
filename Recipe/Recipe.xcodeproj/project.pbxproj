@@ -17,6 +17,8 @@
 		C1CA36F4257B281E00CAAC95 /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CA36F3257B281E00CAAC95 /* LogInVC.swift */; };
 		C1CA36FA257BEDA100CAAC95 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CA36F9257BEDA100CAAC95 /* Recipe.swift */; };
 		C1CA3702257BFA9F00CAAC95 /* MockDBS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CA3701257BFA9F00CAAC95 /* MockDBS.swift */; };
+		C1CA3707257C402900CAAC95 /* RecipeBookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CA3706257C402900CAAC95 /* RecipeBookVC.swift */; };
+		C1CA371C257C91D900CAAC95 /* RecipeTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CA371B257C91D900CAAC95 /* RecipeTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		C1CA36F3257B281E00CAAC95 /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
 		C1CA36F9257BEDA100CAAC95 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		C1CA3701257BFA9F00CAAC95 /* MockDBS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDBS.swift; sourceTree = "<group>"; };
+		C1CA3706257C402900CAAC95 /* RecipeBookVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeBookVC.swift; sourceTree = "<group>"; };
+		C1CA371B257C91D900CAAC95 /* RecipeTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				C1CA36F3257B281E00CAAC95 /* LogInVC.swift */,
+				C1CA3706257C402900CAAC95 /* RecipeBookVC.swift */,
+				C1CA371B257C91D900CAAC95 /* RecipeTVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -281,8 +287,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1CA36B2257B177300CAAC95 /* AppDelegate.swift in Sources */,
+				C1CA3707257C402900CAAC95 /* RecipeBookVC.swift in Sources */,
 				C1CA36FA257BEDA100CAAC95 /* Recipe.swift in Sources */,
 				C1CA3702257BFA9F00CAAC95 /* MockDBS.swift in Sources */,
+				C1CA371C257C91D900CAAC95 /* RecipeTVC.swift in Sources */,
 				C1CA36B4257B177300CAAC95 /* SceneDelegate.swift in Sources */,
 				C1CA36F4257B281E00CAAC95 /* LogInVC.swift in Sources */,
 			);

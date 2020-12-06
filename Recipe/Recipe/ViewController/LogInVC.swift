@@ -19,8 +19,15 @@ class LogInVC: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        MockDBS.shared.clearUser()
+    }
     @IBAction func LoginEvent(_ sender: Any) {
-        performSegue(withIdentifier: "showRecipe", sender: self)
+        MockDBS.shared.filterByUser(userName: UserTxtFld.text ?? "")
+        performSegue(withIdentifier: "showRecipeBook", sender: self)
     }
     
 }
