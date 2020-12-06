@@ -22,9 +22,9 @@ extension RecipeBookVC: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! RecipeBookVCCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TableViewCell
         
-        cell.textLabel?.text = recipeBooks[indexPath.row].title
+        cell.title.text = recipeBooks[indexPath.row].title
         
         return cell
     }
@@ -47,8 +47,4 @@ extension RecipeBookVC: UITableViewDataSource, UITableViewDelegate {
 //            }
 //        }
     }
-}
-
-class RecipeBookVCCell: UITableViewCell {
-
 }
